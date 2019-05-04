@@ -17,6 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".HelpeeScreen" />
+        <activity android:name=".HelperScreen" />
+
     </application>
 
 </manifest>

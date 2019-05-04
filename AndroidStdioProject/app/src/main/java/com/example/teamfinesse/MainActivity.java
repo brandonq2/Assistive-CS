@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.btnHelper:
-                //code
+                System.out.println("Helper Selected");
+                startActivity(new Intent( this, HelperScreen.class));
                 break;
         }
     }

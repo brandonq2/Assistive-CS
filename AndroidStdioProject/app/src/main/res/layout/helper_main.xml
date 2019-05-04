@@ -7,38 +7,40 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/btnRecord"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="150dp"
-        android:layout_height="77dp"
+        android:id="@+id/sendCommand"
+        android:layout_width="188dp"
+        android:layout_height="81dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="148dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="@string/start_recording"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnText"
-        android:layout_width="150dp"
-        android:layout_height="77dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="49dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="@string/send_text"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginBottom="276dp"
+        android:text="Send"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="286dp"
+        android:layout_height="167dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:freezesText="false"
+        android:inputType="textLongMessage|textPersonName"
+        android:text="URL"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/sendCommand"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnRecord"
-        app:layout_constraintVertical_bias="0.217" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.659" />
+
 </android.support.constraint.ConstraintLayout>
