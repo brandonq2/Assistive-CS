@@ -1,8 +1,10 @@
 package com.example.teamfinesse
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log.d
 import android.view.Menu
 import android.view.MenuItem
 
@@ -22,7 +24,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         helpee.setOnClickListener {
-
+            d("App", "Helpee")
+            startActivity(Intent(this, HelpeeScreen::class.java))
         }
     }
 
