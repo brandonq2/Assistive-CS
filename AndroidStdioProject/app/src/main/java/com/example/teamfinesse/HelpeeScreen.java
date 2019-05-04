@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-class HelpeeScreen extends AppCompatActivity implements View.OnClickListener{
+public class HelpeeScreen extends AppCompatActivity implements View.OnClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,6 +15,5 @@ class HelpeeScreen extends AppCompatActivity implements View.OnClickListener{
 
     @Override
     public void onClick(View v) {
-
     }
 }

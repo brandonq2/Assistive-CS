@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
 
             case R.id.btnHelpee:
+                System.out.println("Helpee Selected");
                 startActivity(new Intent(MainActivity.this, HelpeeScreen.class));
                 break;
 
