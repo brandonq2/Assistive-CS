@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "237865579777",
+    "firebase_url": "https://assistive-cs.firebaseio.com",
+    "project_id": "assistive-cs",
+    "storage_bucket": "assistive-cs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237865579777:android:1f31fe6ad291d41c",
+        "android_client_info": {
+          "package_name": "com.example.teamfinesse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237865579777-qva5ktbquaf3vk5ucl01oo258tve4hr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2Iat7sdSgZwCfzJbNI9IuFlwK_uT_kqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237865579777-qva5ktbquaf3vk5ucl01oo258tve4hr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
