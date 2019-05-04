@@ -1,0 +1,4 @@
+#Sat May 04 15:41:11 EDT 2019
+base.0=C\:\\Users\\Shahmeer Shahid\\Google Drive\\Uni\\PCHacks2019\\Assistive-CS\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+path.0=classes.dex
+renamed.0=classes.dex

@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnHelpee = (Button) findViewById(R.id.btnHelpee);
         btnHelpee.setOnClickListener(this);
         btnHelper = (Button) findViewById(R.id.btnHelper);
-        btnHelpee.setOnClickListener(this);
+        btnHelper.setOnClickListener(this);
 
 
     }
