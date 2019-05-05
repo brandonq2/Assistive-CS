@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "237865579777-nh0qo28gc62i9q9rjte94qp5kmtgguj3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.teamfinesse",
+            "certificate_hash": "c1001f1e56b24e2e0ac29935ef7f203b89cd9ec2"
+          }
+        },
+        {
           "client_id": "237865579777-qva5ktbquaf3vk5ucl01oo258tve4hr7.apps.googleusercontent.com",
           "client_type": 3
         }
