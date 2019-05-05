@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/sendCommand"
+        android:id="@+id/btnSend"
         android:layout_width="188dp"
         android:layout_height="81dp"
         android:layout_marginStart="8dp"
@@ -22,7 +22,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/input"
         android:layout_width="286dp"
         android:layout_height="167dp"
         android:layout_marginStart="8dp"
@@ -36,7 +36,7 @@
         android:inputType="textLongMessage|textPersonName"
         android:text="URL"
         android:textSize="50sp"
-        app:layout_constraintBottom_toTopOf="@+id/sendCommand"
+        app:layout_constraintBottom_toTopOf="@+id/btnSend"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
